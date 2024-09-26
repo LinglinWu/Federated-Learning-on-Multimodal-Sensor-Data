@@ -1,5 +1,5 @@
 # Project Title
-# Federated-Learning-on-Multimodal-Sensor-Data
+Federated-Learning-on-Multimodal-Sensor-Data
 
 ## Motivation
 The goal of federated learning is to collaboratively train a machine learning model
@@ -47,18 +47,21 @@ Evaluate the system on a multimodal dataset that is relatively balanced in class
 Python, Laptop with CUDA-enabled GPU (optional)
 
 ## Team Members Responsibilities
-| Name       | Role               | Responsibilities        |
-|------------|---------------------|-------------------------|
-| Linglin Wu | Project Setup Lead  | 負責專案初始化與設定    |
-| Rui Li     | Software Lead       | 負責軟體開發            |
+| Name       | Role               |
+|------------|---------------------|
+| Linglin Wu | Lead Researcher & Model Developer  |
+| Rui Li     | System Integrator & Documentation Specialist   |
 
 
 ## Project Timeline
 | Milestone  | Start Date | End Date | Description              |
 |------------|------------|----------|--------------------------|
-| Phase 1    | YYYY-MM-DD | YYYY-MM-DD | 初期研究與規劃          |
-| Phase 2    | YYYY-MM-DD | YYYY-MM-DD | 系統設計與開發          |
-| Phase 3    | YYYY-MM-DD | YYYY-MM-DD | 測試與驗證              |
+| Data Preparation    | 10/01/2024 | 10/10/2024 | Collect and preprocess multimodal sensor data. Ensure data is cleaned and normalized for training.          |
+| Implementation Setup    | 10/11/2024 | 10/20/2024 | Set up the federated learning environment, install required software, and ensure GPU compatibility.          |
+| Initial Model Training    | 10/21/2024 | 10/31/2024 | Train the initial model on local devices using the multimodal sensor data. Validate data flow and aggregation.              |
+| Federated Learning Iterations    | 11/01/2024 | 11/10/2024 | Conduct multiple rounds of federated training, refining the global model with updates from client devices.              |
+| Final Model Tuning    | 11/11/2024 | 11/21/2024 | Optimize the model parameters based on evaluation results and prepare the final model.              |
+| Final Review & Submission    | 11/22/2024 | 12/08/2024 | Conduct a final review of the project deliverables, make any necessary revisions, and submit the project.|
 
 ## References
 1. Multimodal Federated Learning on IOT Data ( https://pure-research.york.ac.uk/ws/portalfiles/portal/79047763/2109.04833v2.pdf)
