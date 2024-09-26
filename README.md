@@ -1,5 +1,5 @@
 # Project Title
-Federated-Learning-on-Multimodal-Sensor-Data
+Federated Learning on Multimodal Sensor Data
 
 ## Motivation
 The goal of federated learning is to collaboratively train a machine learning model
